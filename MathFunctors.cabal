@@ -63,11 +63,33 @@ library
     import:           warnings
 
     -- Modules exported by the library.
-    exposed-modules:  MyLib
+    exposed-modules:
+        MyLib
+        MyLib.Algorithms.Recurrences
 
     -- Modules included in this library but not exported.
     other-modules:
         MyLib.SetTheory
+        MyLib.Algorithms.Recurrences.AkraBazzi
+        MyLib.Algorithms.Recurrences.Annihilators
+        MyLib.Algorithms.Recurrences.Annihilators.ClosedForm
+        MyLib.Algorithms.Recurrences.Annihilators.Linear
+        MyLib.Algorithms.Recurrences.Annihilators.Operator
+        MyLib.Algorithms.Recurrences.Annihilators.Roots
+        MyLib.Algorithms.Recurrences.Annihilators.Scalar
+        MyLib.Algorithms.Recurrences.Annihilators.Solve
+        MyLib.Algorithms.Recurrences.Asymptotic
+        MyLib.Algorithms.Recurrences.Examples
+        MyLib.Algorithms.Recurrences.Examples.Assorted
+        MyLib.Algorithms.Recurrences.Examples.Fibonacci
+        MyLib.Algorithms.Recurrences.Examples.Hanoi
+        MyLib.Algorithms.Recurrences.Examples.Mergesort
+        MyLib.Algorithms.Recurrences.Examples.Quicksort
+        MyLib.Algorithms.Recurrences.Examples.SearchTrees
+        MyLib.Algorithms.Recurrences.Examples.Selection
+        MyLib.Algorithms.Recurrences.Guess
+        MyLib.Algorithms.Recurrences.Transformations
+        MyLib.Algorithms.Recurrences.Trees
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
